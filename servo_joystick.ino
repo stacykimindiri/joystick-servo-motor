@@ -1,10 +1,12 @@
+// Servo library
 #include <Servo.h>
-
+// Declare variables
 int joy_pin = 2;
 int x;
 int y;
 int state;
-int motorpin = 10;
+int motorpin = 10; 
+// instantiate
 Servo motor;
 void setup(){
   pinMode(joy_pin, OUTPUT);
